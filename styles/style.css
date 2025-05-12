@@ -13,6 +13,8 @@
   margin: 0;
   padding: 0;
 }
+/* banner styles */
+
 .banner{
   background-image: url('/images/Banner\ Image.png');
   background-position: center;
@@ -48,27 +50,31 @@
   display: block;
   font-size: 50px;
 }
-.banner-two{
+
+/* promo styles */
+
+.promo{
   text-align: center;
   /* gap: 20px; */
+   
+}
+.discount{
+  font-size: 88px;
+  color: #FF0000;
+  padding-top: 120px;
+}
+.subtext{
+  font-size: 24px;
+  font-weight: 600px;
+  color: #FF0000;
+  margin: 16px;
  
-  
 }
-.banner-container-two{
-  margin: 120px 258px 0 258px;
-}
-.itme{
+.categories{
   margin-bottom: 24px;
   font-size: 48px;
 }
-.banner-two-description{
-  font-size: 30px;
-  font-weight: 600px;
-  color: #FF0000;
-  /* padding: 10px 0 ; */
-}
-.banner-two-title{
-  font-size: 88px;
-  color: #FF0000;
-  /* padding-top: 120px; */
+.promo-image{
+  width: 802px;
+  height: 500px;
 }
