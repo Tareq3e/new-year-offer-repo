@@ -93,6 +93,7 @@
   background-position: center;
   color: white;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .banner-content {
@@ -122,4 +123,32 @@
   margin-left: 300px; 
 }
 
+/* event styles */
+.event-info{
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #ffe6e6, #ffffff);
 
+}
+
+.event-info p {
+  font-size: 18px;
+  margin: 15px 0;
+  font-weight: bold;
+  
+}
+
+.label {
+  color: red;
+}
+
+.btn-join {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
