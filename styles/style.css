@@ -152,3 +152,59 @@
   font-weight: bold;
   border-radius: 5px;
 }
+/* coming-soon style */
+.coming-soon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+  max-width: 1380px;
+  margin: auto;
+  background-color: #fff;
+}
+.left, .right{
+  flex: 1;
+}
+.center{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.highlight{
+  font-weight: 600px;
+  font-size: 24px;
+  color: #FF0000;
+  margin-bottom: 10px;
+}
+h1{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+
+}
+p{
+  font-size: 20px;
+  color: #070211;
+}
+.year{
+  color: #FF0000;
+}
+.circle-image{
+  width: 364px;
+  height: 364px;
+  border: 8px solid red;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  
+}
+
+.happy-new-year-img {
+  margin-top: 20px;
+  width: 100px;
+}
