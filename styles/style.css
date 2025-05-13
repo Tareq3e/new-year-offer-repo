@@ -118,6 +118,10 @@
   font-weight: bold;
   border-radius: 5px;  
 }
+.cta-button:hover {
+  background-color: darkred;
+}
+
 .party-image{
   max-width: 50%;
   margin-left: 300px; 
@@ -234,15 +238,11 @@ p{
   color: rgba(7, 2, 17, 0.6);
 }
 .gift-box-container{
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
   margin-top: 60px;
   position: relative;
 }
 .gift-box {
   width: 674px;
-  z-index: 2;
   position: relative;
 }
 .gift-discount {
@@ -292,5 +292,60 @@ p{
 .grid-gallery img:hover {
   transform: scale(1.03);
 }
+.newsletter{
+  background-color: #ffeeee;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+.newsletter-container{
+  text-align: center;
+  padding-top: 80px;
+}
+.newsletter .icon{
+  width: 80px;
+  margin-bottom: 20px;
 
+}
+.news-title{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.news-description{
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  color: rgba(7, 2, 17, 0.6);
+}
 
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.subscribe-form input {
+  flex: 1;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 40px 0 0 40px;
+  font-size: 16px;
+  outline: none;
+  background: white;
+}
+.subscribe-form button {
+  padding: 18px 18px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: darkred;
+}
