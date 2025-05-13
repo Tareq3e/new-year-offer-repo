@@ -17,7 +17,7 @@
 /* banner styles */
 
 .banner{
-  background-image: url('/images/Banner\ Image.png');
+  background-image: url('../images/Banner\ Image.png');
   background-position: center;
   background-repeat:no-repeat;
   height: 600px;
@@ -26,8 +26,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
-  /* overflow: hidden; */
+  position: relative;
+  overflow: hidden;
 }
 .banner-container{
   text-align: center;
@@ -85,7 +85,7 @@
 .party-banner{
   display: flex;
   align-items: center;
-  background-image: url('/images/Vectorrr.png');
+  background-image: url('../images/Vectorrr.png');
   background-repeat: no-repeat;
   background-position: center;
   height: 600px;
@@ -232,4 +232,29 @@ p{
   font-weight: 600px;
   padding: 5px;
   color: rgba(7, 2, 17, 0.6);
+}
+.gift-box-container{
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-top: 60px;
+  position: relative;
+}
+.gift-box {
+  width: 674px;
+  z-index: 2;
+  position: relative;
+}
+.gift-discount {
+  position: absolute;
+  right: 15%;
+  width: 300px;
+}
+.Rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  
 }
