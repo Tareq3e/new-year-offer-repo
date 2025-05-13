@@ -258,3 +258,39 @@ p{
   height: 180px;
   
 }
+
+.product-subtitle{
+  margin: 30px 5px;
+  font-weight: 600px;
+  font-size: 24px;
+  color: rgba(255, 0, 0, 1);
+}
+.product-title{
+  font-size: 48px;
+  font-weight: bold;
+}
+.product-description{
+  font-size: 20px;
+  margin-bottom: 40px ;
+  padding-right: 400px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.product-gift-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+
+}
+.product-gift-card img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.grid-gallery img:hover {
+  transform: scale(1.03);
+}
+
+
